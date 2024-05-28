@@ -12,5 +12,4 @@ RUN apt-get update && apt-get install -y \
 RUN chmod +x wisecow.sh
 
 EXPOSE 4499
-
 CMD ["./wisecow.sh"]
